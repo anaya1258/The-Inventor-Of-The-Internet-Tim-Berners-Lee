@@ -70,6 +70,7 @@ p {
     cursor: pointer;
     position: absolute;
     z-index: 10;
+    position:fixed;
 
 }
 
@@ -83,14 +84,13 @@ a {
 }
 
 .links {
-    float: right;
     color: deeppink;
     font-size: 25px;
     font-family: 'Itim', cursive;
     padding-left: 5px;
     padding-right: 10px;
-
-
+    display:inline;
+    
 }
 
 a {
@@ -99,4 +99,22 @@ a {
 
 .article:hover {
     color: fuchsia;
+}
+
+.links:hover{
+    font-size:25px;
+    background-color: deeppink ;
+   font-family: 'Pattaya', sans-serif;
+}
+
+#home{
+margin-left: 300px;
+}
+
+#c iframe{
+width: 100%;
+    
+}
+#c{
+    background-color: antiquewhite;
 }
